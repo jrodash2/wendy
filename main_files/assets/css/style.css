@@ -109,8 +109,8 @@
 -----------------------------------------------------------------------------------*/
 /* General Style */
 
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&display=swap');
+/* Original typefaces, served locally for reliable static/offline use. */
+@import url('hollywood-fonts.css');
 body {
     font-family: 'Anybody';
     overflow-x: hidden;
