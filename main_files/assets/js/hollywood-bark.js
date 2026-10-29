@@ -1,7 +1,7 @@
 /* Hollywood Bark additions. Original template/plugin files remain unchanged. */
 (() => {
   'use strict';
-  // Draft contact supplied in the PDF. Confirm with Wendy before publication.
+  // Contact number confirmed by Wendy.
   // Update this one object to replace the number everywhere on this page.
   const contact = { display: '+1 (281) 908-9671', number: '+12819089671' };
   document.querySelectorAll('[data-phone]').forEach(link => {
@@ -21,6 +21,15 @@
   document.addEventListener('click', event => { if (!header.contains(event.target) && !menu.hidden) closeMenu(); });
   window.addEventListener('resize', () => { if (innerWidth >= 1200) closeMenu(); measureHeader(); });
   measureHeader();
+  // Preserve the template scroll-to-top interaction using the brand palette.
+  const updateScrollProgress = () => {
+    const distance = document.documentElement.scrollHeight - innerHeight;
+    const progress = distance > 0 ? Math.min(100, Math.max(0, scrollY / distance * 100)) : 0;
+    document.getElementById('progress').style.setProperty('--hb-scroll', `${progress}%`);
+  };
+  window.addEventListener('scroll', updateScrollProgress, { passive: true });
+  window.addEventListener('resize', updateScrollProgress);
+  updateScrollProgress();
   if ('ResizeObserver' in window) new ResizeObserver(measureHeader).observe(header);
   // Keep the template’s slide animation with semantic heading/button markup.
   jQuery(() => {

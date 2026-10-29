@@ -1,0 +1,137 @@
+/* Hollywood Bark's blue identity. Scoped overrides preserve the template itself. */
+:root {
+  --hb-blue: #1663b4;
+  --hb-blue-dark: #104d8d;
+  --hb-sky: #bfe6ff;
+  --hb-blue-wash: #eff8ff;
+  /* One-color treatment for the template's decorative raster illustrations. */
+  --hb-art-blue: brightness(0) saturate(100%) invert(30%) sepia(94%) saturate(1141%) hue-rotate(186deg) brightness(88%) contrast(92%);
+}
+
+.hollywood-bark .hb-brand,
+.hollywood-bark .hb-brand:hover {
+  color: #000;
+}
+.hollywood-bark .hb-header .top-bar,
+.hollywood-bark .preloader,
+.hollywood-bark .button,
+.hollywood-bark .widget-title .boder,
+.hollywood-bark .hero-two-slider .owl-nav i:hover,
+.hollywood-bark .social-icon i:hover {
+  background-color: var(--hb-blue);
+}
+.hollywood-bark .dot-1 { background-color: var(--hb-sky); }
+.hollywood-bark .dot-2 { background-color: var(--hb-blue-dark); }
+.hollywood-bark .button,
+.hollywood-bark .button:hover,
+.hollywood-bark .package-text .button,
+.hollywood-bark .package-text .button:hover {
+  background-color: var(--hb-blue);
+  color: #fff;
+}
+.hollywood-bark .button:hover,
+.hollywood-bark .package-text .button:hover {
+  background-color: var(--hb-blue-dark);
+}
+.hollywood-bark .button:before,
+.hollywood-bark .hero-two-slider .owl-nav i:hover,
+.hollywood-bark .package figure > img {
+  border-color: var(--hb-blue);
+}
+.hollywood-bark .heading h6,
+.hollywood-bark .package-text h4,
+.hollywood-bark ul.list li i,
+.hollywood-bark .widget-title li a:hover,
+.hollywood-bark .hb-header nav li > a:hover,
+.hollywood-bark .hb-text-link:hover,
+.hollywood-bark .hb-trust a:hover,
+.hollywood-bark .hb-contact-card a:not(.button):hover {
+  color: var(--hb-blue);
+}
+.hollywood-bark .package-text > i,
+.hollywood-bark .accordion-item .icon,
+.hollywood-bark .accordion-item.active .icon,
+.hollywood-bark .accordion-item.active .title,
+.hollywood-bark .social-icon i,
+.hollywood-bark .copyrighttwo {
+  background-color: var(--hb-sky);
+}
+.hollywood-bark .accordion-item.active .icon:before {
+  background-color: var(--hb-blue-dark);
+}
+.hollywood-bark .pets-icon:nth-child(n) {
+  background-color: var(--hb-blue-wash);
+  border-color: var(--hb-sky);
+}
+.hollywood-bark .pets-icon:nth-child(even) {
+  background-color: #e2f2ff;
+}
+.hollywood-bark .pets-icon:hover {
+  background-color: #fff;
+  border-color: var(--hb-blue);
+}
+.hollywood-bark .pets-icon > i,
+.hollywood-bark .hb-step-number,
+.hollywood-bark .hb-step .provide-img i {
+  color: var(--hb-blue);
+}
+/* Recolor decoration only; photographs retain their original colors. */
+.hollywood-bark .hero-shaps-2,
+.hollywood-bark .hero-shaps-3,
+.hollywood-bark .hero-shaps-4,
+.hollywood-bark .heading > img,
+.hollywood-bark .hb-review-seal > img,
+.hollywood-bark .hb-policy-art,
+.hollywood-bark .package-text > i img {
+  filter: var(--hb-art-blue);
+}
+.hollywood-bark .hero-two:before { filter: var(--hb-art-blue); }
+.hollywood-bark #progress {
+  /* custom.js writes an inline orange gradient; keep that plugin's behavior
+     while replacing its colors via the progress custom property. */
+  background: conic-gradient(var(--hb-blue) var(--hb-scroll, 0%), #fff 0) !important;
+}
+.hollywood-bark #progress-value i { color: var(--hb-blue); }
+.hb-carousel-controls { justify-content: flex-end; }
+.hb-reviews .button { margin-top: 26px; }
+.hb-returning-clients {
+  margin: 38px auto 0;
+  padding: 26px;
+  max-width: 800px;
+  text-align: center;
+  background: var(--hb-blue-wash);
+  border: 1px solid var(--hb-sky);
+  border-radius: 22px;
+}
+.hb-returning-clients p { font-weight: 600; }
+.hb-returning-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px 28px;
+  margin-top: 14px;
+}
+.hb-returning-actions a {
+  color: var(--hb-blue-dark);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  .hb-returning-clients { padding: 22px 18px; }
+  .hb-returning-clients p { font-size: 16px; }
+}
+.hollywood-bark footer.two {
+  background-color: var(--hb-blue-wash) !important;
+  background-image: linear-gradient(rgba(239, 248, 255, .92), rgba(239, 248, 255, .92)), url('../img/footer-1.png') !important;
+  background-blend-mode: normal;
+}
+/* This illustration has an opaque white canvas; keep it light rather than
+   applying the single-color filter used for transparent decorative assets. */
+.hollywood-bark footer.two:before {
+  filter: grayscale(1);
+  mix-blend-mode: multiply;
+  opacity: .16;
+}
+.hollywood-bark .social-icon i { color: var(--hb-blue); }
+.hollywood-bark .social-icon i:hover { color: #fff; }
