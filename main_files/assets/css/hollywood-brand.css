@@ -139,7 +139,7 @@
 /* Logo prepared from the owner-supplied flyer reference. Keep its full artwork
    and proportions; replace the PNG with the original master when available. */
 .hollywood-bark .hb-header .hb-brand .hb-logo {
-  width: 160px;
+  width: 120px;
   height: auto;
   max-width: 100%;
   object-fit: contain;
@@ -152,5 +152,33 @@
 }
 .hollywood-bark .hb-header .bottom-bar { padding-top: 4px; padding-bottom: 4px; }
 @media (max-width: 575px) {
-  .hollywood-bark .hb-header .hb-brand .hb-logo { width: 128px; }
+  .hollywood-bark .hb-header .hb-brand .hb-logo { width: 80px; }
+}
+
+/* The original template typefaces, with a compact menu logo and wordmark. */
+.hb-header .hb-wordmark strong {
+  display: block;
+  font-family: 'DynaPuff', sans-serif;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.hb-header .hb-wordmark small {
+  font-family: 'Anybody', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 7px;
+}
+.hb-header .hb-brand .hb-logo { flex-shrink: 0; }
+@media (max-width: 575px) {
+  .hb-header .bottom-bar { gap: 12px; }
+  .hb-header .hb-brand { gap: 5px; }
+  .hb-header .hb-wordmark strong { font-size: 18px; }
+  .hb-header .hb-wordmark small { font-size: 8px; letter-spacing: .4px; }
+  .hb-header .hb-menu-toggle span { display: none; }
+}
+@media (max-width: 359px) {
+  .hollywood-bark .hb-header .hb-brand .hb-logo { width: 64px; }
+  .hb-header .hb-wordmark strong { font-size: 16px; }
 }
