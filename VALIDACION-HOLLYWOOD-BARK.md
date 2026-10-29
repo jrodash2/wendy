@@ -33,3 +33,18 @@ Las instrucciones escritas más recientes prevalecen sobre el folleto adjunto, q
 - `git diff --check` sin errores.
 
 No se envían reservas durante las pruebas. No se ha confirmado un despliegue público externo. El logo adaptado y las fotografías de plantilla pueden reemplazarse por los originales de marca y fotografías reales cuando se entreguen.
+
+
+## Actualización posterior: hospedaje y primeros auxilios
+
+Se aplicaron los cinco textos adicionales indicados por la propietaria:
+
+1. La tarjeta Boarding anuncia `Billed per calendar night.`
+2. El acordeón de tarifas explica check-in/check-out entre semana, +$25 después del mediodía, +$10 por entrada anticipada con condiciones, noche extra después de las 6 PM, recogida temprana sin descuento y condiciones de sábado/domingo.
+3. El acordeón de facturación publica cobro por noche calendario, bloque de limpieza 12–2 PM, citas obligatorias y las nuevas condiciones de recogida tardía.
+4. El acordeón de horarios publica entradas 2–6 PM y salidas 10 AM–12 PM de lunes a viernes, por cita.
+5. Se conserva `Pet CPR & First Aid certified`; el subtítulo ahora es `Trained to stay calm and act fast in an emergency, so your pup is safe in our hands.`
+
+Se eliminaron de la landing el cobro en periodos de 24 horas, los antiguos recargos de +$20/+$40 por retraso y el horario de entregas matutinas. Los precios regulares por noche y las reglas festivas permanecen como estaban.
+
+Validación de esta actualización: Chromium en 1280 y 390 px, coincidencia de los cinco textos, apertura de acordeones, subtítulo CPR sin recortes, sin desbordamiento horizontal ni errores JavaScript/recursos.

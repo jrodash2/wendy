@@ -26,7 +26,7 @@ Original carousel, template classes, decorations, hover effects and vendor scrip
 ## Current business information
 
 - Location: San Antonio, TX. Hollywood Park is mentioned only for its residents' special discount; its amount is not published. The regular additional-dog boarding price remains $45/night.
-- Saturday handoffs: 11:00 AM–2:00 PM.
+- Boarding is billed per calendar night. Weekday check-in: 2:00–6:00 PM; checkout: 10:00 AM–12:00 PM; by appointment, with noon–2:00 PM reserved for cleaning. Late checkout after noon: +$25 per reservation. Early check-in before 2:00 PM: +$10 with prior notice and kennel readiness. No pickups after 6:00 PM; pickup moves to the next morning and an extra night is charged. Early pickup does not discount the night. Saturday handoffs: 11:00 AM–2:00 PM without extra charge. Sunday: 4:00–6:00 PM only by appointment arranged at booking, with a $20 fee per reservation.
 - General cancellations: free up to 48 hours before drop-off; within 48 hours, 50% of the reservation.
 - Holiday cancellations: payments are non-refundable for cancellations within 72 hours of drop-off. Holiday weekends start with Friday drop-offs; no Saturday/Sunday handoffs; Monday holiday handoffs only 4:00–6:00 PM. Closed Christmas Day and New Year's Day. Rates and listed holiday windows remain available under pricing.
 - Confirmed phone: +1 (281) 908-9671. SMS and Instagram DM are available for returning clients; the free initial meet & greet is for new clients.
