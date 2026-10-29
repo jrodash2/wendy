@@ -139,7 +139,7 @@
 /* Logo prepared from the owner-supplied flyer reference. Keep its full artwork
    and proportions; replace the PNG with the original master when available. */
 .hollywood-bark .hb-header .hb-brand .hb-logo {
-  width: 208px;
+  width: 160px;
   height: auto;
   max-width: 100%;
   object-fit: contain;
@@ -152,5 +152,5 @@
 }
 .hollywood-bark .hb-header .bottom-bar { padding-top: 4px; padding-bottom: 4px; }
 @media (max-width: 575px) {
-  .hollywood-bark .hb-header .hb-brand .hb-logo { width: 160px; }
+  .hollywood-bark .hb-header .hb-brand .hb-logo { width: 128px; }
 }
