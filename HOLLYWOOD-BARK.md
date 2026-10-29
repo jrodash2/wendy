@@ -34,7 +34,7 @@ Original carousel, template classes, decorations, hover effects and vendor scrip
 
 ## Remaining assets
 
-The official black tree/dog/cat logo was not present in the repository. The orange template icon has been removed from the header and footer; the name remains in black until the authentic logo is supplied. Add the supplied asset to both `.hb-brand` links when available; do not substitute an invented logo.
+The black tree/dog/cat logo is now displayed in the header and footer. `main_files/assets/img/hollywood-bark-logo.png` is a transparent image prepared with an image-editing model from the owner-supplied flyer reference. It is an adaptation of that reference, not the original vector/master artwork. Replace it with the original logo file when available for exact brand fidelity. The orange template icon remains removed. The generic blue paw favicon is separate from the business logo.
 
 Real Wendy/pack photos and permission-approved client quotes will be supplied later. Existing template photographs remain; no fictitious testimonials were added. Public placeholder notes have been removed. The review-count claim comes from the supplied business copy.
 
